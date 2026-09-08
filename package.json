@@ -1,0 +1,19 @@
+{
+  "name": "forex-trading",
+  "version": "1.0.0",
+  "description": "Best trading sites",
+  "type": "module",
+  "scripts": {
+    "build": "node build-speed-insights.js",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
